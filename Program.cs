@@ -29,3 +29,5 @@ if (number_1 > number_2)
    Console.WriteLine("a = " + number_1 + ", b = " + number_2 + " -> " + " max == a");
 else
     Console.WriteLine("a = " + number_1 + ", b = " + number_2 + " -> " + "max == b");
+if (number_1 == number_2)
+   Console.WriteLine("a = " + number_1 + ", b = " + number_2 + "->" + " max is not found. The values of the variables are equal");
