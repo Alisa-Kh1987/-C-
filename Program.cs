@@ -21,6 +21,8 @@
 //else
     //Console.WriteLine("a = " + number_1 + ", b = " + number_2 + " -> " + " no");
 
+
+//Домашнее задание к семинару № 1 по C#
 Console.Write("Input first number:");
 int number_1 = Convert.ToInt32 (Console.ReadLine());
 Console.Write("Input second number:");
