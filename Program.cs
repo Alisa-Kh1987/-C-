@@ -24,7 +24,7 @@
 
 //Домашнее задание к семинару № 1 по C#
 
-//Задача № 2.
+//Задача № 2. Вывести на экран, какое из двух чисел больше
 
 //вариант разбора на семинаре
 
@@ -55,7 +55,7 @@
 //if (number_1 == number_2)
 //   Console.WriteLine("a = " + number_1 + ", b = " + number_2 + "->" + " max is not found. The values of the variables are equal");
 
-//Задача № 4.
+//Задача № 4. Максимум из трех чисел.
 
 //Console.Write("Input first number:");
 //int number_1 = Convert.ToInt32 (Console.ReadLine());
@@ -75,7 +75,7 @@
 //else {Console.WriteLine("Введенны одинаковые значения");
 //}
 
-//Задача № 6.
+//Задача № 6. Вывести на экран, является ли число четным.
 
 //Console.Write("Input number:");
 //int number = Convert.ToInt32 (Console.ReadLine());
@@ -86,5 +86,12 @@
 //    Console.WriteLine("число нечетное");
 //}
 
+//Задача № 8. Вывести четные значения от 1 до N.
 
-
+//Console.Write("Введите N:");
+//int N = Convert.ToInt32 (Console.ReadLine());
+//int current = 2;
+//while (current <= N){
+//        Console.WriteLine(current);
+//        current = current + 2;
+//}
